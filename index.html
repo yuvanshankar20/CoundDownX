@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDownX</title>
+    <link rel="icon" href="time-half-past.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  
+  <h1 id="title">CountDownX</h1>
+  <div class="container">
+      <div class="container1">
+          <p class="big-text" id="days">0</p>
+          <span>days</span>
+      </div>
+      <div class="container1">
+          <p class="big-text" id="hours">0</p>
+          <span>hours</span>
+      </div>
+      <div class="container1">
+          <p class="big-text" id="min">0</p>
+          <span>minutes</span>
+      </div>
+      <div class="container1">
+          <p class="big-text" id="second">0</p>
+          <span>seconds</span>
+      </div>
+  </div>
+  <form class="form-home" id="inputform">
+      <label for="">Enter the Event Name:</label><br/>
+      <input type="text" id="eventname" placeholder="Eg: Newyear"><br/>
+      <label for="" >Enter the Event Date:</label><br/>
+      <input type="text" id="eventdate" name="eventdate" placeholder="Eg: MM/DD/YYYY"><br/>
+      <input type="submit" value="Start Timer">
+  </form>
+  <div>
+      <button onclick="location.href='index.html'">New Countdown</button>
+  </div>
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>
